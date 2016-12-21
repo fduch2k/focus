@@ -4,7 +4,7 @@
 
 import XCTest
 
-class ScreenshotTests: XCTestCase {
+class SnapshotTests: XCTestCase {
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
