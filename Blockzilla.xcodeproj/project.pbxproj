@@ -246,8 +246,6 @@
 		E44A34691E0A18C100BFD777 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
 		E44A346B1E0A18C100BFD777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E44A34751E0A198000BFD777 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
-		E44A34821E0AD2F300BFD777 /* KlarSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlarSnapshotTests.swift; sourceTree = "<group>"; };
-		E44A34841E0AD2F300BFD777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47F9AE11DB927FD00A93285 /* AdjustSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdjustSdk.framework; path = Carthage/Build/iOS/AdjustSdk.framework; sourceTree = "<group>"; };
 		E47F9AE51DB929D800A93285 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		E47F9AE61DB929D800A93285 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -422,15 +420,6 @@
 			path = ScreenshotTests;
 			sourceTree = "<group>";
 		};
-		E44A34811E0AD2F300BFD777 /* KlarSnapshotTests */ = {
-			isa = PBXGroup;
-			children = (
-				E44A34821E0AD2F300BFD777 /* KlarSnapshotTests.swift */,
-				E44A34841E0AD2F300BFD777 /* Info.plist */,
-			);
-			path = KlarSnapshotTests;
-			sourceTree = "<group>";
-		};
 		E4BF2DCA1BACE8CA00DA9D68 = {
 			isa = PBXGroup;
 			children = (
@@ -441,7 +430,6 @@
 				D3E2C9001D9F17C600DEBE3D /* Blocklists */,
 				E4BF2DD51BACE8CA00DA9D68 /* Blockzilla */,
 				E4BF2DED1BACE92400DA9D68 /* ContentBlocker */,
-				E44A34811E0AD2F300BFD777 /* KlarSnapshotTests */,
 				D77FE464056F274978E025ED /* Frameworks */,
 				E4BF2DD41BACE8CA00DA9D68 /* Products */,
 				D33A1A391BC476D40003D929 /* Shared */,

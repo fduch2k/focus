@@ -129,7 +129,6 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
             cell.textLabel?.text = toggle.label
             cell.textLabel?.numberOfLines = 0
             cell.accessoryView = PaddedSwitch(switchView: toggle.toggle)
-            cell.accessoryView?.accessibilityIdentifier = "SettingsViewController.\(toggle.setting.rawValue)Switch"
             cell.detailTextLabel?.text = toggle.subtitle
             cell.detailTextLabel?.numberOfLines = 0
             cell.selectionStyle = .none
