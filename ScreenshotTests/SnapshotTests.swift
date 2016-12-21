@@ -67,6 +67,13 @@ class SnapshotTests: XCTestCase {
         snapshot("12ShareMenu")
     }
 
+    func test05SafariIntegration() {
+        let app = XCUIApplication()
+        app.buttons["HomeView.settingsButton"].tap()
+        app.tables.switches["BlockerToggle.Safari"].tap()
+        snapshot("13SafariIntegrationInstructions")
+    }
+
     func waitForValueContains(element:XCUIElement, value:String, file: String = #file, line: UInt = #line) {
         let predicateText = "value CONTAINS " + "'" + value + "'"
         let valueCheck = NSPredicate(format: predicateText)
